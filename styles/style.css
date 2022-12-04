@@ -13,7 +13,7 @@ nav a {
     padding: 35px;
 }
 nav a:hover {
-    color: white;
+    color: #FFDCAE;
 }
 nav {
     display: flex;
@@ -28,6 +28,8 @@ body {
 }
 .logo-img{
     border-radius: 60px;
+    margin: 10px;
+    padding: 15px;
 }
 
 
@@ -35,9 +37,16 @@ body {
     width: 100%;
     height: 800px;
 }
+h1 {
+    color: #76BA99;
+}
+h1:hover {
+    color: #FFDCAE;
+}
 main p {
     text-align: center;
     font-size: 1.2em;
+    color: white;
 }
 
 .img-bottom {
@@ -57,4 +66,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
