@@ -21,10 +21,14 @@ nav {
 }
 body {
     background-color: #ADCF9F;
-    font-family: "Montserrat", sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
+    height: 1500px;
+}
+.form {
+    text-align: center;
 }
 .logo-img{
     border-radius: 60px;
@@ -38,12 +42,14 @@ body {
     height: 800px;
 }
 h1 {
+
     color: #76BA99;
 }
 h1:hover {
     color: #FFDCAE;
 }
 main p {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 1.2em;
     color: white;
@@ -62,7 +68,7 @@ footer {
     background-color: #76BA99;
     color: #FFDCAE;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,4 +77,5 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+
 }
